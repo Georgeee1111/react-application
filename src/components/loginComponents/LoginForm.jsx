@@ -23,8 +23,8 @@ const LoginForm = () => {
   };
 
   return (
-    <div className="flex justify-center items-center h-full mt-[12rem]">
-      <Box className=" h-auto p-6">
+    <div className="flex justify-center items-center h-screen">
+      <Box className="h-auto w-auto">
         <form onSubmit={handleSubmit}>
           <InputField
             label="Username"
@@ -48,6 +48,15 @@ const LoginForm = () => {
           {error && <p className="text-red-500">{error}</p>}
           <div className="flex justify-center items-center h-full mt-[2rem]">
             <Button type="submit">Sign in</Button>
+          </div>
+          <div className="mt-4 flex justify-end">
+            Don't have an account?
+            <a
+              href="/SignUp"
+              className="button hidden text-n-1/50 transition-colors hover:text-n-1 lg:block pl-[0.5rem] mt-[0.2rem]"
+            >
+              Click here
+            </a>
           </div>
         </form>
       </Box>

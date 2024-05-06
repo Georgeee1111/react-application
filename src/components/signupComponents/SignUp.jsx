@@ -5,7 +5,7 @@ import ButtonGradient from "../../assets/svg/ButtonGradient";
 const SignUp = () => {
   return (
     <>
-      <div className="flex justify-center items-center h-full mt-[12rem]">
+      <div className="flex justify-center items-center h-screen">
         <Box className="w-96 h-auto p-6">
           <form>
             <InputField
@@ -31,6 +31,15 @@ const SignUp = () => {
             />
             <div className="flex justify-center items-center h-full mt-[2rem]">
               <Button type="submit">Sign Up</Button>
+            </div>
+            <div className="mt-4 flex justify-end">
+              Already have an account?
+              <a
+                href="/login"
+                className="button hidden text-n-1/50 transition-colors hover:text-n-1 lg:block pl-[0.5rem] mt-[0.2rem]"
+              >
+                Click here
+              </a>
             </div>
           </form>
         </Box>
