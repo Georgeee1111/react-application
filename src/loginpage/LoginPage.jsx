@@ -2,7 +2,7 @@ import React from "react";
 import ButtonGradient from "../assets/svg/ButtonGradient";
 import Header from "../components/generalComponents/Header";
 import LoginForm from "../components/loginComponents/LoginForm";
-import { background, heroBackground } from "../assets";
+import { heroBackground } from "../assets";
 
 function LoginPage() {
   return (
