@@ -75,6 +75,7 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 import Logo from "../assets/Logo.png";
+import Logo1 from "../assets/Logo1.jpg";
 
 export {
   brainwave,
@@ -146,4 +147,5 @@ export {
   telegram,
   twitter,
   Logo,
+  Logo1,
 };

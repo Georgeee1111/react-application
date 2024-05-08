@@ -1,4 +1,3 @@
-import React from "react";
 import ButtonGradient from "../assets/svg/ButtonGradient";
 import Benefits from "../components/homeComponents/Benefits";
 import Collaboration from "../components/homeComponents/Collaboration";

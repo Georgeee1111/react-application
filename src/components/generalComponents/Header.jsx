@@ -68,6 +68,24 @@ const Header = ({ navigation }) => {
                   {item.title}
                 </a>
               ))}
+              <a
+                href="/SignUp"
+                className={`block relative font-code text-2xl uppercase text-n-1 transition-colors hover:text-color-1 ${
+                  openNavigation ? "" : "hidden"
+                } px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semi-bold lg:leading-5 lg:hover:text-n-1 xl:px-12`}
+                onClick={handleClick}
+              >
+                New Account
+              </a>
+              <a
+                href="/login"
+                className={`block relative font-code text-2xl uppercase text-n-1 transition-colors hover:text-color-1 ${
+                  openNavigation ? "" : "hidden"
+                } px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semi-bold lg:leading-5 lg:hover:text-n-1 xl:px-12`}
+                onClick={handleClick}
+              >
+                Sign in
+              </a>
             </div>
             <HamburgerMenu />
           </nav>
